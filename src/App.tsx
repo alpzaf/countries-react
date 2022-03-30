@@ -15,7 +15,7 @@ function App() {
             setCountries(data)
         }
         catch {
-            console.log('An Error Occured While Fetching Data')
+            console.log('An Error Occurred While Fetching Data')
         }
         finally {
             setLoading(false)
